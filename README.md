@@ -13,7 +13,7 @@ A simple C# console application to backup remote PostgreSQL databases to your lo
 
 ## Prerequisites
 
-1. **.NET Framework 4.6.1 or higher**
+1. **.NET 8.0 or higher** - Download from [.NET official website](https://dotnet.microsoft.com/download)
 2. **PostgreSQL Client Tools** - The `pg_dump` utility must be installed and accessible in your system PATH.
    - **Windows**: Install from [PostgreSQL official website](https://www.postgresql.org/download/windows/)
    - **Linux**: `sudo apt-get install postgresql-client` (Ubuntu/Debian) or equivalent
@@ -22,11 +22,11 @@ A simple C# console application to backup remote PostgreSQL databases to your lo
 ## Installation
 
 1. Clone or download this repository
-2. Build the solution using Visual Studio or MSBuild:
+2. Build the solution using the .NET CLI:
    ```
-   msbuild ConsoleApp1.sln /p:Configuration=Release
+   dotnet build ConsoleApp1.sln --configuration Release
    ```
-3. The executable will be in `ConsoleApp1\bin\Release\ConsoleApp1.exe`
+3. The executable will be in `ConsoleApp1\bin\Release\net8.0\ConsoleApp1.exe` (Windows) or `ConsoleApp1/bin/Release/net8.0/ConsoleApp1` (Linux/macOS)
 
 ## Usage
 
