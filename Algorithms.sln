@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B72B6EAB-7C06-48CB-9F74-779CC9FBD75C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondMaxElement", "ConsoleApp1\SecondMaxElement.csproj", "{B72B6EAB-7C06-48CB-9F74-779CC9FBD75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortAlgorithms", "QuickSortAlgorithms\QuickSortAlgorithms.csproj", "{FA886670-7A79-4298-84FB-3DA4296883C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B72B6EAB-7C06-48CB-9F74-779CC9FBD75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B72B6EAB-7C06-48CB-9F74-779CC9FBD75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B72B6EAB-7C06-48CB-9F74-779CC9FBD75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA886670-7A79-4298-84FB-3DA4296883C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA886670-7A79-4298-84FB-3DA4296883C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA886670-7A79-4298-84FB-3DA4296883C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA886670-7A79-4298-84FB-3DA4296883C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
